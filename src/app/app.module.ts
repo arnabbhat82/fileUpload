@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SimpleUploadComponent } from './simple-upload/simple-upload.component';
 import { ReactiveUploadComponent } from './reactive-upload/reactive-upload.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
